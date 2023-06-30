@@ -26,9 +26,43 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="conta">
+    <div class="container">
+      <!-- title -->
       <div class="head">
         <h1>Tip Calculator</h1>
+      </div>
+      <!-- calculator container -->
+      <div class="card-container">
+        <div class="card-input">
+          <div class="bill">
+            <span>Bill Amount $</span>
+            <br>
+            <input type="text" placeholder="$">
+          </div>
+          <div class="tip">
+            <span>Select Tip %</span>
+            <br>
+            <div class="btn-percentage">
+              <button class="btn">15%</button>
+              <button class="btn">20%</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-output">
+          <div class="output">
+            <span>Bill Amount</span>
+            <output>00.0</output>
+          </div>
+          <div class="output">
+            <span>Bill Tip</span>
+            <output>00.0</output>
+          </div>
+          <div class="output">
+            <span>Bill Total</span>
+            <output>00.0</output>
+          </div>
+          <button class="reset">Reset</button>
+        </div>
       </div>
     </div>
   </body>

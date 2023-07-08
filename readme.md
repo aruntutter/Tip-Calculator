@@ -4,14 +4,13 @@
 
 - [Links](#links)
 - [Description](#description)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [What I Learned](#what-i-learned)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Links
 

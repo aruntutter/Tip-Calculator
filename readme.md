@@ -8,7 +8,6 @@
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [What I Learned](#what-i-learned)
 - [Contributing](#contributing)

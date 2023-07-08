@@ -37,13 +37,13 @@
           <div class="bill">
             <span>Bill Amount $</span>
             <br>
-            <input type="text" placeholder="$">
+            <input id="bill" type="text" placeholder="$">
           </div>
           <div class="tip">
             <span>Select Tip %</span>
             <br>
-            <div class="btn-percentage">
-              <button class="btn">15%</button>
+            <div>
+              <button class="btn" onclick="tipCalculate()" >15%</button>
               <button class="btn">20%</button>
             </div>
           </div>
@@ -51,15 +51,15 @@
         <div class="card-output">
           <div class="output">
             <span>Bill Amount</span>
-            <output>00.0</output>
+            <output id="billAmount">00.0</output>
           </div>
           <div class="output">
             <span>Bill Tip</span>
-            <output>00.0</output>
+            <output id="tip">00.0</output>
           </div>
           <div class="output">
             <span>Bill Total</span>
-            <output>00.0</output>
+            <output id="total">00.0</output>
           </div>
           <button class="reset">Reset</button>
         </div>
